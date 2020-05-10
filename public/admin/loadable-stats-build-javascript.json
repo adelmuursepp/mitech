@@ -1,0 +1,131 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "9903e39706d8483a3fd5",
+  "publicPath": "",
+  "outputPath": "/Users/adelmuursepp/webdev/themeforest-cLfiGNFN-mitech-it-solutions-and-services-company-react-gatsby-template/mitech/public/admin",
+  "assetsByChunkName": {
+    "cms": [
+      "cms.js",
+      "cms.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "cms.js",
+      "size": 6560,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "cms"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "cms.js.map",
+      "size": 32587,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "cms"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "cms": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "cms.js",
+        "cms.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "cms": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "cms.js",
+        "cms.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/Users/adelmuursepp/webdev/themeforest-cLfiGNFN-mitech-it-solutions-and-services-company-react-gatsby-template/mitech/public/admin",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "index.html",
+          "size": 545820,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    }
+  ]
+}
