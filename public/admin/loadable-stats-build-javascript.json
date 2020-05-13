@@ -4,7 +4,7 @@
   "version": "4.43.0",
   "hash": "9903e39706d8483a3fd5",
   "publicPath": "",
-  "outputPath": "/Users/adelmuursepp/webdev/themeforest-cLfiGNFN-mitech-it-solutions-and-services-company-react-gatsby-template/mitech/public/admin",
+  "outputPath": "/Users/adelmuursepp/webdev/ivynet/mitech ivylocker/mitech/public/admin",
   "assetsByChunkName": {
     "cms": [
       "cms.js",
@@ -78,7 +78,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "",
-      "outputPath": "/Users/adelmuursepp/webdev/themeforest-cLfiGNFN-mitech-it-solutions-and-services-company-react-gatsby-template/mitech/public/admin",
+      "outputPath": "/Users/adelmuursepp/webdev/ivynet/mitech ivylocker/mitech/public/admin",
       "assetsByChunkName": {},
       "assets": [
         {

@@ -2,6 +2,20 @@ const path = require(`path`)
 const {slugify} = require('./src/utils/utilFunctions')
 const _ = require('lodash')
 
+
+exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
+    if (stage === 'build-javascript') {
+      const config = getConfig()
+      const miniCssExtractPlugin = config.plugins.find(
+        plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
+      )
+      if (miniCssExtractPlugin) {
+        miniCssExtractPlugin.options.ignoreOrder = true
+      }
+      actions.replaceWebpackConfig(config)
+    }
+  }
+
 exports.onCreateNode = ({node, actions, getNode}) => {
     const { createNodeField } = actions;
     if(node.internal.type === 'MarkdownRemark'){
